@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Game example</title>
+</head>
+<body style="background-color:#0f0f12; color:#dfeaf2; text-align: center;">
+<!-- Include Scala.js compiled code -->
+<script type="text/javascript" src="js/talk-test.js"></script>
+<br/>
+<h2>Battle builder</h2>
+
+<div id="form">
+<textarea id="json" rows="8" cols="50">
+</textarea><br/>
+<button onclick="Game.load()">Load</button>
+</div>
+<div id="game"></div>
+<div id="output" align="left">
+
+
+
+</div>
+<button onclick="Game.next()">Next</button><br/>
+<input type="text" id="c1" size="2"><input type="text" id="c2" size="2">
+<button onclick="Game.full()" >Full fight</button>
+
+<script type="text/javascript">
+
+
+</script>
+</body>
+</html>
